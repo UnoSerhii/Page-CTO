@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/reset.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="/">
+            <img class="logo__link logo" src="/assets/logo.svg" alt="CTO" />
+          </a>
+          <nav class="nav__container">
+            <div class="nav__work--time">
+              <p><i class="bx bx-time-five bx-tada icon-size"></i>Ми працюємо: Пн - Сб з 9:00 - 18:00</p>
+            </div>
+            <ul class="nav__items">
+              <li class="nav__item"><a class="nav__link" href="#services">Послуги</a></li>
+              <li class="nav__item"><a class="nav__link" href="#price">Ціни</a></li>
+              <li class="nav__item"><a class="nav__link" href="#feedback">Контакти</a></li>
+              <li class="nav__item"><a class="nav__link" href="#benefits">Переваги</a></li>
+            </ul>
+          </nav>
+          <div class="nav__contacts">
+            <a href="tel:380999999090" class="nav__link"><i class='bx bx-phone-call bx-tada icon-size' ></i></i>+38 (099) 999 90 90</a>
+            <div class="button_slide slide_right">Записатися на консультацію</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="intro">
+      <section class="container">
+        <div class="intro__content">
+          <div class="intro__content--title">
+            <h1 class="intro__title">
+              Залиши заявку та отримай діагностику ходової лише за <span class="intro__title--color">149 грн</span> стара ціна <span class="intro__title--color">499 грн</span> грн при умові запису до 11:00 <span class="intro__title--color">Акція</span> діє
+              <span class="intro__title--color">до кінця наступної неділі.</span>
+            </h1>
+            <div class="button_slide slide_right">Записатися на консультацію</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="title">Наші <span class="title--color">Послуги</span></h2>
+        <div class="services__cards">
+          <article class="services__card">
+            <img src="/assets/Tech.jpg" alt="auto" />
+            <h4 class="services__title">ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ АВТОМОБИЛЯ</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена воздушного фильтра</li>
+              <li class="services__item">Замена салонного фильтра</li>
+              <li class="services__item">Замена салонного фильтра со снятием педального узла</li>
+              <li class="services__item">Замена масла в коробке передач (мкпп)</li>
+              <li class="services__item">Замена масла в редукторе переднего моста</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/system.jpg" alt="auto" />
+            <h4 class="services__title">ТОРМОЗНАЯ СИСТЕМА</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена тормозного шланга (без прокачки системы)</li>
+              <li class="services__item">Замена тормозной трубки передний контур (без прокачки системы)</li>
+              <li class="services__item">Замена главного тормозного цилиндра (без прокачки системы)</li>
+              <li class="services__item">Замена тормозной жидкости</li>
+              <li class="services__item">Прокачка тормозной системы, удаление воздуха</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/electro.jpg" alt="auto" />
+            <h4 class="services__title">ЭЛЕКТРООБОРУДОВАНИЕ</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена генератора</li>
+              <li class="services__item">Замена стартера</li>
+              <li class="services__item">Ремонт генератора</li>
+              <li class="services__item">Ремонт стартера</li>
+              <li class="services__item">Замена диодного моста генератора</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/drive.jpg" alt="auto" />
+            <h4 class="services__title">РУЛЕВОЕ УПРАВЛЕНИЕ</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена наконечника рулевой тяги</li>
+              <li class="services__item">Замена рулевой тяги и наконечника</li>
+              <li class="services__item">Замена рулевой рейки</li>
+              <li class="services__item">Замена насоса ГУР (гидроусилитель руля)</li>
+              <li class="services__item">Шприцевание шарниров за точку</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/hodova.jpg" alt="auto" />
+            <h4 class="services__title">ХОДОВАЯ ЧАСТЬ</h4>
+            <ul class="services__items">
+              <li class="services__item">Демонтаж-монтаж поворотного кулака</li>
+              <li class="services__item">Замена шпильки колеса при снятом тормозном диске (1ед)</li>
+              <li class="services__item">Демонтаж-монтаж стойки амортизатора</li>
+              <li class="services__item">Сборка-разборка стойки амортизатора 1 шт.</li>
+              <li class="services__item">
+                Замена опорного подшипника передней стойки амортизатора (со снятием) амортизатора)
+              </li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/engine.jpeg" alt="auto" />
+            <h4 class="services__title">ДВИГАТЕЛЬ</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена двигателя — снять двигатель / поставить двигатель</li>
+              <li class="services__item">Снять двигатель</li>
+              <li class="services__item">Поставить двигатель</li>
+              <li class="services__item">Капитальный ремонт двигателя (без запчастей)</li>
+              <li class="services__item">Замена головки блока цилиндров (гбц)</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets//transmision.jpg" alt="auto" />
+            <h4 class="services__title">ТРАНСМИССИЯ</h4>
+            <ul class="services__items">
+              <li class="services__item">Замена автоматической коробки передач (акпп) -полный привод</li>
+              <li class="services__item">Замена механической коробки передач (мкпп)-полный привод</li>
+              <li class="services__item">Замена роботизированной коробки передач (мта, изитроник, робот)</li>
+              <li class="services__item">Ремонт механической коробки передач (мкпп) разборка -сборка</li>
+              <li class="services__item">Замена сальника первичного вала механической коробки передач (мкпп)</li>
+            </ul>
+          </article>
+          <article class="services__card">
+            <img src="/assets/alarm.jpg" alt="auto" />
+            <h4 class="services__title">УСТАНОВКА СИГНАЛИЗАЦИИ</h4>
+            <ul class="services__items">
+              <li class="services__item">Установка сигнализации с односторонней связью</li>
+              <li class="services__item">Установка сигнализации с обратной связью</li>
+              <li class="services__item">Установка сигнализации с автозапуском</li>
+              <li class="services__item">Установка сирены</li>
+              <li class="services__item">Программирование функций системы (одна функция)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="follows">
+      <div class="follows__text">
+        <div class="follows__container">
+          <h2 class="follows__container--title">НУЖЕН СРОЧНЫЙ РЕМОНТ АВТОМОБИЛЯ?</h2>
+          <p class="follows__container--description">
+            ПОЗВОНИТЕ НАМ ПРЯМО СЕЙЧАС И МЫ ПОДСКАЖЕМ ВАМ ЦЕНУ И ВРЕМЯ РЕМОНТА
+          </p>
+          <div class="button_slide slide_right">Записатися на консультацію</div>
+        </div>
+      </div>
+    </section>
+    <section id="price" class="accordion">
+      <div class="container">
+        <div>
+          <h2 class="title">Наші <span class="title--color">Ціни</span></h2>
+        </div>
+        <div class="accordion__container">
+          <ul class="accordion__items">
+            <li class="accordion__item">
+              <h3 class="accordion__item--title">ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ АВТОМОБИЛЯ</h3>
+              <p class="accordion__item--description">
+                <span>Замена воздушного фильтра</span> <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="accordion__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="accordion__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="accordion__item--title">ТОРМОЗНАЯ СИСТЕМА</h3>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="accordion__item--title">ЭЛЕКТРООБОРУДОВАНИЕ</h3>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="accordion__item--title">РУЛЕВОЕ УПРАВЛЕНИЕ</h3>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="accordion__item--title">ХОДОВАЯ ЧАСТЬ</h3>
+              <p class="accordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="accordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+          </ul>
+          <ul class="accordion__items">
+            <li class="accordion__item">
+              <h3 class="acordion__item--title">ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ АВТОМОБИЛЯ</h3>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="acordion__item--title">РУЛЕВОЕ УПРАВЛЕНИЕ</h3>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="acordion__item--title">ТОРМОЗНАЯ СИСТЕМА</h3>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="acordion__item--title">РУЛЕВОЕ УПРАВЛЕНИЕ</h3>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена тормозной жидкости <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+            <li class="accordion__item">
+              <h3 class="acordion__item--title">ЭЛЕКТРООБОРУДОВАНИЕ</h3>
+              <p class="acordion__item--description">
+                Замена воздушного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена салонного фильтра со снятием педального узла <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в коробке передач (мкпп) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе переднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в раздаточной коробке (рк) <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена масла в редукторе заднего моста <span class="description__item--price">350 ₽</span>
+              </p>
+              <p class="acordion__item--description">
+                Замена жидкости в рулевом механизме <span class="description__item--price">350 ₽</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="feedback" class="feedback">
+      <div class="feedback__content">
+        <h2 class="feedback__content--title">Контактна інформація</h2>
+        <p class="feedback__content--description">Заповніть форму і ми передзвонимо вам</p>
+      </div>
+      <div class="feedback__container container">
+        <div class="feedback__info">
+          <div class="feedback__box">
+            <div class="feedback__box--icon"><i class="bx bx-map"></i></div>
+            <div class="feedback__box--text">
+              <h3 class="feedback__box--title">Адреса</h3>
+              <p class="feedback__box--description">м.Київ, вул.Шевченка 15</p>
+            </div>
+          </div>
+          <div class="feedback__box">
+            <div class="feedback__box--icon"><i class="bx bx-envelope"></i></div>
+            <div class="feedback__box--text">
+              <h3 class="feedback__box--title">Email</h3>
+              <a href="mailto:email@.com" class="nav__link feedback__box--description">email@.com</a>
+            </div>
+          </div>
+          <div class="feedback__box">
+            <div class="feedback__box--icon"><i class="bx bx-phone-call"></i></div>
+            <div class="feedback__box--text">
+              <h3 class="feedback__box--title">Phone</h3>
+              <a href="tel:380999999090" class="nav__link feedback__box--description">+38 (099) 999 90 90</a>
+            </div>
+          </div>
+        </div>
+        <div class="feedback__contact-form">
+          <form>
+            <h2 class="feedback__content--title">Позвоніть Мені</h2>
+            <div class="feedback__box--input">
+              <input class="feedback__input--style" type="text" name="" required="required" />
+              <span class="feedback__input--placeholder">Ім'я</span>
+            </div>
+            <div class="feedback__box--input">
+              <input class="feedback__input--style" type="text" name="" required="required" />
+              <span class="feedback__input--placeholder">Номер Телефону</span>
+            </div>
+            <div class="feedback__box--input">
+              <input
+                class="button_slide slide_right feedback__input--style"
+                type="submit"
+                name=""
+                value="Записатися на консультацію"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <h2 class="title">Наші <span class="title--color">Переваги</span></h2>
+        <div class="benefits__wrapper">
+          <h2 class="benefits__title">Чому ми?</h2>
+          <div class="benefits__cards">
+            <div class="benefits__card">
+              <div class="benefits__icon"><i class='bx bxs-car-mechanic'></i></div>
+              <h2 class="benefitts__card--title">КОМПЛЕКСНИЙ ПІДХІД</h2>
+              <p class="benefits__card--description">
+                Ми займаємося обслуговуванням, діагностикою та ремонтом автомобілів, підбираємо й доставляємо
+                запчастини. Ви приїздите до нас, все інше робимо ми.
+              </p>
+            </div>
+            <div class="benefits__card">
+              <div class="benefits__icon"><i class='bx bxs-book-open' ></i></div>
+              <h2 class="benefitts__card--title">ВІДКРИТІСТЬ</h2>
+              <p class="benefits__card--description">
+                Ми займаємося обслуговуванням, діагностикою та ремонтом автомобілів, підбираємо й доставляємо
+                запчастини. Ви приїздите до нас, все інше робимо ми.
+              </p>
+            </div>
+            <div class="benefits__card">
+              <div class="benefits__icon"><i class='bx bx-receipt'></i></div>
+              <h2 class="benefitts__card--title">ПРОЗОРІСТЬ</h2>
+              <p class="benefits__card--description">
+                Ми займаємося обслуговуванням, діагностикою та ремонтом автомобілів, підбираємо й доставляємо
+                запчастини. Ви приїздите до нас, все інше робимо ми.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="header__inner">
+          <a href="/">
+            <img class="logo__link logo" src="/assets/logo.svg" alt="CTO" />
+          </a>
+          <nav class="nav__container">
+            <div class="nav__work--time">
+              <p><i class="bx bx-time-five bx-tada icon-size"></i>Ми працюємо: Пн - Сб з 9:00 - 18:00</p>
+            </div>
+          </nav>
+          <div class="nav__contacts">
+            <a href="tel:380999999090" class="nav__link"><i class='bx bx-phone-call bx-tada icon-size' ></i></i>+38 (099) 999 90 90</a>
+            <div class="button_slide slide_right">Записатися на консультацію</div>
+          </div>
+          <ul class="footer__items">
+            <li class="nav__item"><a class="nav__link" href="#services">Послуги</a></li>
+            <li class="nav__item"><a class="nav__link" href="#price">Ціни</a></li>
+            <li class="nav__item"><a class="nav__link" href="#feedback">Контакти</a></li>
+            <li class="nav__item"><a class="nav__link" href="#benefits">Переваги</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/bb7d867592.js" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
